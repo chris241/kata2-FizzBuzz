@@ -54,5 +54,13 @@ namespace UnitTestProject1
             string result = fizzBuzz.Generate(15);
             Assert.AreEqual("FizzBuzz", result);
         }
+        [TestMethod]
+        public void Generate_ReturnFizzBuzzIfNumber30()
+        {
+            FizzBuzz.FizzBuzz fizzBuzz = new FizzBuzz.FizzBuzz();
+            string result = fizzBuzz.Generate(30);
+            Assert.AreEqual("FizzBuzz", result);
+        }
     }
+   
 }
