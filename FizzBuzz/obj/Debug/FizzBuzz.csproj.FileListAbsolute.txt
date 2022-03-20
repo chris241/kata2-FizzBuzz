@@ -1,0 +1,6 @@
+C:\Users\ASUS\source\repos\kata2-FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll
+C:\Users\ASUS\source\repos\kata2-FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Users\ASUS\source\repos\kata2-FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\kata2-FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\kata2-FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.dll
+C:\Users\ASUS\source\repos\kata2-FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
