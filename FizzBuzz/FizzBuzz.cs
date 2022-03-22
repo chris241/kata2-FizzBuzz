@@ -18,12 +18,12 @@ namespace FizzBuzz
 
         }
 
-        private static bool IsDivisionBy5(int number)
+        private bool IsDivisionBy5(int number)
         {
             return number % 5 == 0;
         }
 
-        private static bool IsDivisionBy3(int number)
+        private bool IsDivisionBy3(int number)
         {
             return number % 3 == 0;
         }
