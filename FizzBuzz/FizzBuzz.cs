@@ -10,10 +10,27 @@ namespace FizzBuzz
     {
         public string Generate(int number)
         {
-            if (number % 15 == 0) return "FizzBuzz";
-            if (number % 3 == 0) return "Fizz";
-            if (number % 5 == 0) return "Buzz";
+            if (IsDivisionBy15(number)) return "FizzBuzz";
+            if (IsDivisionBy3(number)) return "Fizz";
+            if (IsDivisionBy5(number)) return "Buzz";
             return number.ToString();
+
+
+        }
+
+        private bool IsDivisionBy5(int number)
+        {
+            return number % 5 == 0;
+        }
+
+        private bool IsDivisionBy3(int number)
+        {
+            return number % 3 == 0;
+        }
+
+        private bool IsDivisionBy15(int number)
+        {
+            return number % 15 == 0;
         }
     }
 }
